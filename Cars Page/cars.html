@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars - DiamondCut</title>
+    <link rel="stylesheet" href="cars.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <ul class="nav-links">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#00000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="/Home Page/index.html">Home</a></li>
+            <li><a href="/Cars Page/cars.html">Cars</a></li>
+            <li><a href="/Showroom Page/showroom.html">Showroom</a></li>
+            <li><a href="/About Us Page/about.html">About</a></li>
+            <li><a href="/Login Page/login.html">Login</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar">
+        <a class="logo-link" href="/Home Page/index.html"><img src="/Assets/logo-name-1.png" alt="DiamondCut Motors Logo"></a>
+        <ul class="nav-links">
+            <li class="hideOnMobile"><a href="/Home Page/index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="/Cars Page/cars.html">Cars</a></li>
+            <li class="hideOnMobile"><a href="/Showroom Page/showroom.html">Showroom</a></li>
+            <li class="hideOnMobile"><a href="/About Us Page/about.html">About</a></li>
+            <li class="menu-btn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#00000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+        <a href="/Login Page/login.html" class="login hideOnMobile"><button>Login</button></a>
+    </nav>
+
+    <div class="separator"><h2>Used Cars</h2></div>
+
+    <div class="car-gallery">
+        <div class="car-item">
+            <img src="/Assets/2010-porsche-911-turbo.jpeg" alt="2010 Porsche 911 Turbo">
+            <div class="car-details">
+                <div class="year">2010</div>
+                <div class="name">Porsche 911 Turbo</div>
+                <div class="odometer">85,000 km</div>
+            </div>
+            <div class="car-overlay">
+                <div class="car-options">
+                    <button class="buy-btn">Buy</button>
+                    <button class="wishlist-btn">Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="car-item">
+            <img src="/Assets/2002-ferrari-enzo.jpg" alt="2002 Ferrari Enzo">
+            <div class="car-details">
+                <div class="year">2002</div>
+                <div class="name">Ferrari Enzo</div>
+                <div class="odometer">170,000 km</div>
+            </div>
+            <div class="car-overlay">
+                <div class="car-options">
+                    <button class="buy-btn">Buy</button>
+                    <button class="wishlist-btn">Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="car-item">
+            <img src="/Assets/1995-mclaren-f1.jpg" alt="1995 McLaren F1">
+            <div class="car-details">
+                <div class="year">1995</div>
+                <div class="name">McLaren F1</div>
+                <div class="odometer">45,000 km</div>
+            </div>
+            <div class="car-overlay">
+                <div class="car-options">
+                    <button class="buy-btn">Buy</button>
+                    <button class="wishlist-btn">Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="car-item">
+            <img src="/Assets/2008-bugatti-veyron.jpg" alt="2008 Buugatti Veyron">
+            <div class="car-details">
+                <div class="year">2008</div>
+                <div class="name">Bugatti Veyron</div>
+                <div class="odometer">89,000 km</div>
+            </div>
+            <div class="car-overlay">
+                <div class="car-options">
+                    <button class="buy-btn">Buy</button>
+                    <button class="wishlist-btn">Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="car-item">
+            <img src="/Assets/2000-saleen-s7.jpg" alt="2000 Saleen S7">
+            <div class="car-details">
+                <div class="year">2000</div>
+                <div class="name">Saleen S7</div>
+                <div class="odometer">109,000 km</div>
+            </div>
+            <div class="car-overlay">
+                <div class="car-options">
+                    <button class="buy-btn">Buy</button>
+                    <button class="wishlist-btn">Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="car-item">
+            <img src="/Assets/2007-ssc-ultimate-aero.jpg" alt="2007 SSC Ultimate Aero">
+            <div class="car-details">
+                <div class="year">2007</div>
+                <div class="name">SSC Ultimate Aero</div>
+                <div class="odometer">67,500 km</div>
+            </div>
+            <div class="car-overlay">
+                <div class="car-options">
+                    <button class="buy-btn">Buy</button>
+                    <button class="wishlist-btn">Wishlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="separator"><h2>New Cars</h2></div>
+    
+    <div class="car-gallery">
+        <div class="car-item">
+            <img src="/Assets/2013-w-motors-lykan-hypersport.jpg" alt="2013 W Motors Lykan Hypersport">
+            <div class="car-details">
+                <div class="year">2013</div>
+                <div class="name">W Motors Lykan Hypersport</div>
+                <div class="odometer">1,000 km</div>
+            </div>
+            <div class="car-overlay">
+                <div class="car-options">
+                    <button class="buy-btn">Buy</button>
+                    <button class="wishlist-btn">Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="car-item">
+            <img src="/Assets/2020-lamborghini-aventador-svj.jpg" alt="2020 Lamborghini Aventador SVJ">
+            <div class="car-details">
+                <div class="year">2020</div>
+                <div class="name">Lamborghini Aventador SVJ</div>
+                <div class="odometer">1,500 km</div>
+            </div>
+            <div class="car-overlay">
+                <div class="car-options">
+                    <button class="buy-btn">Buy</button>
+                    <button class="wishlist-btn">Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="car-item">
+            <img src="/Assets/2024-rimac-nevera.jpg" alt="2024 Rimac Nevera">
+            <div class="car-details">
+                <div class="year">2024</div>
+                <div class="name">Rimac Nevera</div>
+                <div class="odometer">500 km</div>
+            </div>
+            <div class="car-overlay">
+                <div class="car-options">
+                    <button class="buy-btn">Buy</button>
+                    <button class="wishlist-btn">Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="car-item">
+            <img src="/Assets/2024-rolls-royce-ghost.jpg" alt="2024 Rolls-Royce Ghost">
+            <div class="car-details">
+                <div class="year">2024</div>
+                <div class="name">Rolls-Royce Ghost</div>
+                <div class="odometer">9000 km</div>
+            </div>
+            <div class="car-overlay">
+                <div class="car-options">
+                    <button class="buy-btn">Buy</button>
+                    <button class="wishlist-btn">Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="car-item">
+            <img src="/Assets/2021-ssc-tuatara.jpg" alt="2021 SSC Tuatara">
+            <div class="car-details">
+                <div class="year">2021</div>
+                <div class="name">SSC Tuatara</div>
+                <div class="odometer">600 km</div>
+            </div>
+            <div class="car-overlay">
+                <div class="car-options">
+                    <button class="buy-btn">Buy</button>
+                    <button class="wishlist-btn">Wishlist</button>
+                </div>
+            </div>
+        </div>
+        <div class="car-item">
+            <img src="/Assets/2020-koenigsegg-regera.jpg" alt="2020 Koenigsegg Regera">
+            <div class="car-details">
+                <div class="year">2020</div>
+                <div class="name">Koenigsegg Regera</div>
+                <div class="odometer">4,500 km</div>
+            </div>
+            <div class="car-overlay">
+                <div class="car-options">
+                    <button class="buy-btn">Buy</button>
+                    <button class="wishlist-btn">Wishlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="separator"><h2>Our Partner</h2></div>
+    <div class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="/Assets/porsche-logo.jpg" alt="Brand 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="/Assets/saleen-logo.jpg" alt="Brand 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="/Assets/ssc-logo.jpg" alt="Brand 3">
+            </div>
+            <div class="carousel-slide">
+                <img src="/Assets/koenigsegg-logo.jpg" alt="Brand 4">
+            </div>
+            <div class="carousel-slide">
+                <img src="/Assets/bugatti-logo.jpg" alt="Brand 5">
+            </div> 
+            <div class="carousel-slide">
+                <img src="/Assets/porsche-logo.jpg" alt="Brand 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="/Assets/saleen-logo.jpg" alt="Brand 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="/Assets/ssc-logo.jpg" alt="Brand 3">
+            </div>
+            <div class="carousel-slide">
+                <img src="/Assets/koenigsegg-logo.jpg" alt="Brand 4">
+            </div>
+            <div class="carousel-slide">
+                <img src="/Assets/bugatti-logo.jpg" alt="Brand 5">
+            </div>  
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="/Assets/logo-name-2.png" alt="Logo">
+            </div>
+            <div class="footer-nav">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="/Home Page/index.html">Home</a></li>
+                    <li><a href="/Cars Page/cars.html">Cars</a></li>
+                    <li><a href="/Showroom Page/showroom.html">Showroom</a></li>
+                    <li><a href="/About Us Page/about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector(".sidebar");
+            sidebar.style.display = 'flex';
+        }
+
+        function hideSidebar(){
+            const sidebar = document.querySelector(".sidebar");
+            sidebar.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
